@@ -1,13 +1,13 @@
 const fs = require('fs')
 const chalk = require('chalk')
 
-global.sessionID = process.env.SESSIONID || ""
-global.mongodburi = process.env.MONGODB_URI || ""
-global.botname = process.env.BOTNAME || "KAVI-X MD"
-global.ownernumber = process.env.OWNERNUMBER || "94766577249"
-global.ownername = process.env.OWNERNAME || "Cyber Kavi"
-global.packname = process.env.PACKNAME || "KAVI-X MD"
-global.author = process.env.AUTHOR || "Cyber Kavi"
+global.sessionID = process.env.SESSIONID || "KAVI-X-SESSION-ID~v4hUxSrL#Z7mpm1MtiZK2Fy_5FqYC_p2ODLu4chbvm_hy8ccQR7Y"
+global.mongodburi = process.env.MONGODB_URI || "mongodb+srv://ketkshqAqjXygEF5:ketkshqAqjXygEF5@freeuri.dmkyoml.mongodb.net/akilapathum94788364308?retryWrites=true&w=majority&appName=freeuri"
+global.botname = process.env.BOTNAME || "PATHUM MD"
+global.ownernumber = process.env.OWNERNUMBER || "94788364308"
+global.ownername = process.env.OWNERNAME || "PATHUM MD"
+global.packname = process.env.PACKNAME || "PATHUM MD"
+global.author = process.env.AUTHOR || "PATHUM MD"
 
 global.creator = process.env.CREATOR || "94702128378@s.whatsapp.net"
 global.botprefix = process.env.BOTPREFIX || "."
